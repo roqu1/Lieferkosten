@@ -2,27 +2,20 @@ body {
     margin: 20px 20px 20px 20px;
 }
 
-.leftside {
-    display: inline;
-    width: 70%;
-    position: relative;
-    float: left;
-}
-.rightside {
-    width: 30%;
-    display: inline;
-    position: relative;
-    float: right;
-}
-
-.labelabstand{
- margin-top: 30px;
+button {
+    background-color: blue;
+    color: white;
+    border-color: aqua;
 }
 
 input[type=text] {
-    width: 300px;
+    width: 100%;
 }
 
 #kosten {
     font-weight: 1000;
+}
+
+select {
+    width: 100%;
 }
